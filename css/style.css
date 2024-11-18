@@ -77,8 +77,6 @@
     top: 0;
 }
 
-
-
 .scroll-downs {
     position: absolute;
     right: 0;
@@ -456,25 +454,19 @@
     clip-path: polygon(0 0, 80% 0, 98% 100%, 0 100%);
 }
 
-
 .pf02 .box_left {
-    background: rgba(75, 75, 75, 0.95);
-    clip-path: polygon(0 0, 98% 0, 85% 100%, 0 100%);
+    background: rgba(146, 20, 20, 0.9);
+    clip-path: polygon(0 0, 98% 0, 80% 100%, 0 100%);
 }
 
 .pf03 .box_left {
-    background: rgba(75, 75, 75, 0.95);
+    background: rgba(5, 117, 58, 0.9);
     clip-path: polygon(0 0, 80% 0, 98% 100%, 0 100%);
 }
 
 .pf04 .box_left {
-    background: rgba(75, 75, 75, 0.95);
+    background: rgba(97, 70, 55, 0.9);
     clip-path: polygon(0 0, 98% 0, 85% 100%, 0 100%);
-}
-
-.pf05 .box_left {
-    background: rgba(75, 75, 75, 0.95);
-    clip-path: polygon(0 0, 80% 0, 98% 100%, 0 100%);
 }
 
 .box_left {
@@ -556,6 +548,18 @@
 
 .pf .desc_area .desc .color03 {
     background: #fff;
+}
+
+.pf .desc_area .desc .color04 {
+    background: #eb0000;
+}
+
+.pf .desc_area .desc .color05 {
+    background: #917056;
+}
+
+.pf .desc_area .desc .color06 {
+    background: #f8f0e5
 }
 
 .pf .desc_area .desc .color03 .pf .desc_area .desc {
@@ -641,9 +645,9 @@
 .pf .mockup .pcss {
     position: absolute;
     overflow: hidden;
-    border-radius: 24px;
-    top: 0;
-    left: 0;
+    border-radius: 20px;
+    top: -1px;
+    left: -1px;
     opacity: 0;
     width: 790px;
     height: 430px;
@@ -667,7 +671,7 @@
 }
 
 .pf .cover .pcss:hover img {
-    transform: translate(0, calc(-100% + 480px));
+    transform: translate(0, calc(-100% + 430px));
     transition: 3s;
 }
 
@@ -724,8 +728,23 @@
 }
 
 
-.pf .mockup .mobiless:hover img {
-    transform: translate(0, calc(-100% + 400px));
+.pf01 .mockup .mobiless:hover img {
+    transform: translate(0, calc(-100% + 350px));
+    transition: 3s;
+}
+
+.pf02 .mockup .mobiless:hover img {
+    transform: translate(0, calc(-100% + 380px));
+    transition: 3s;
+}
+
+.pf03 .mockup .mobiless:hover img {
+    transform: translate(0, calc(-100% + 345px));
+    transition: 3s;
+}
+
+.pf04 .mockup .mobiless:hover img {
+    transform: translate(0, calc(-100% + 340px));
     transition: 3s;
 }
 
@@ -755,44 +774,34 @@
     }
 
     .pf02 .box_left {
-        background: rgba(192, 160, 160, 0.85);
+        background: rgba(146, 20, 20, 0.9);
         clip-path: polygon(0 0, 98% 0, 80% 100%, 0 100%);
         clip-path: none;
     }
 
     .pf02 .box_right {
-        background: linear-gradient(#000 65%, rgba(238, 238, 238, 0.85) 45%);
+        background: linear-gradient(#000 65%, rgba(146, 20, 20, 0.9) 45%);
     }
 
     .pf03 .box_left {
-        background: rgba(75, 75, 75, 0.85);
+        background: rgba(5, 117, 58, 0.9);
         clip-path: polygon(0 0, 80% 0, 98% 100%, 0 100%);
         clip-path: none;
     }
 
     .pf03 .box_right {
-        background: linear-gradient(#000 65%, rgba(75, 75, 75, 0.85) 45%);
+        background: linear-gradient(#000 65%, rgba(5, 117, 58, 0.9) 45%);
     }
 
     .pf04 .box_left {
-        background: rgba(75, 75, 75, 0.85);
+        background: rgba(97, 70, 55, 0.9);
         clip-path: polygon(0 0, 98% 0, 80% 100%, 0 100%);
         clip-path: none;
 
     }
 
     .pf04 .box_right {
-        background: linear-gradient(#000 65%, rgba(75, 75, 75, 0.85) 45%);
-    }
-
-    .pf05 .box_left {
-        background: rgba(75, 75, 75, 0.85);
-        clip-path: polygon(0 0, 80% 0, 98% 100%, 0 100%);
-        clip-path: none;
-    }
-
-    .pf05 .box_right {
-        background: linear-gradient(#000 65%, rgba(75, 75, 75, 0.85) 45%);
+        background: linear-gradient(#000 65%, rgba(97, 70, 55, 0.9) 45%);
     }
 
     .box_left {
@@ -814,7 +823,7 @@
     .pf .desc_area {
         background: rgba(255, 255, 255, 0.8);
         position: absolute;
-        top: 10%;
+        top: 5%;
         color: #000;
         left: 40px;
         width: 440px;
@@ -879,6 +888,18 @@
 
     .pf .desc_area .desc .color03 {
         background: #fff;
+    }
+
+    .pf .desc_area .desc .color04 {
+        background: #eb0000;
+    }
+
+    .pf .desc_area .desc .color05 {
+        background: #917056;
+    }
+
+    .pf .desc_area .desc .color06 {
+        background: #f8f0e5
     }
 
     .pf .desc_area .desc .color03 .pf .desc_area .desc {
@@ -1102,31 +1123,15 @@
     color: #000;
 }
 
-.profile {
-    background: #000;
-    color: #fff;
-}
-
-.ft_profile {
-    position: absolute;
-    top: 25%;
-    right: 15%;
-    width: 480px;
-    height: 480px;
-
-}
-
 .circle {
     position: absolute;
-    top: 20%;
-    left: 10%;
-    width: 800px;
-    height: 560px;
-    padding: 72px 16px 56px 80px;
-
+    top: 35%;
+    left: 12%;
+    width: 1410px;
+    height: 260px;
+    padding: 40px;
     display: flex;
     justify-content: center;
-    gap: 64px;
     border-radius: 20px;
     box-shadow: 0 0 20px #fff,
         -20px 0 80px #f0f,
@@ -1153,6 +1158,20 @@
     }
 }
 
+.content_wrap {
+    padding: 72px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+
+    font-size: 16px;
+}
+
+
+.profile {
+    background: #000;
+    color: #fff;
+}
 
 @media (max-width:768px) {
 
@@ -1212,14 +1231,12 @@
     .circle {
         position: absolute;
         top: 15%;
-        left: 10%;
-        width: 440px;
-        height: 280px;
-        padding: 72px 16px 56px 80px;
-
+        left: 25%;
+        width: 260px;
+        height: 600px;
+        padding: 40px;
         display: flex;
         justify-content: center;
-        gap: 64px;
         border-radius: 20px;
         box-shadow: 0 0 20px #fff,
             -20px 0 80px #f0f,
@@ -1244,6 +1261,26 @@
                 inset -50px 0 300px #f0f,
                 inset 50px 0 300px #0ff;
         }
+    }
+
+    .content_wrap {
+        padding: 72px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
+    }
+
+    .content_wrap .left .dl .dt {
+
+        font-size: 12px;
+
+    }
+
+    .profile {
+        background: #000;
+        color: #fff;
     }
 }
 

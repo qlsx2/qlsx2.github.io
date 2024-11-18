@@ -11,7 +11,7 @@ $(function () {
 
 
     $('#portfolio').fullpage({
-        anchors: ['intro', 'pf01', 'pf02', 'pf03', 'pf04', 'pf05', 'profile'],
+        anchors: ['intro', 'pf01', 'pf02', 'pf03', 'pf04', 'training', 'profile'],
         onLeave: function (idx, nidx, dir) {
             console.log(idx, nidx, dir);
             $('#header .gnb li').eq(nidx - 1).addClass('on').siblings().removeClass('on');
