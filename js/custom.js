@@ -7,7 +7,6 @@ $(function () {
         .from('.intro .piano', { y: -1000, opacity: 0, delay: 0 })
         .from('.intro h2', { x: -1000, opacity: 0, delay: 1 })
         .from('.intro p', { x: 1000, opacity: 0 })
-        .from('.intro .star', { y: 200, opacity: 0, rotate: 720 })
 
 
     $('#portfolio').fullpage({
@@ -44,6 +43,7 @@ $(function () {
     $('#header .cover').on('wheel', function (e) {
         e.stopPropagation();
     });
+
 
 
 
