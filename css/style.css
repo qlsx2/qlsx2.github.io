@@ -1396,7 +1396,7 @@ h1>.magic>.magic-text {
 }
 
 .content_wrap {
-    padding: 30px;
+    padding: 24px;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -1418,13 +1418,6 @@ h1>.magic>.magic-text {
     color: #fff;
 }
 
-.profile h2 {
-    position: absolute;
-    font-size: 56px;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 @media (max-width:768px) {
 
@@ -1503,12 +1496,12 @@ h1>.magic>.magic-text {
     }
 
     .content_wrap {
-        padding: 72px;
+        padding: 80px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        gap: 64px;
+        flex-direction: column;
+        text-align: left;
+        gap: 56px;
     }
 
     .content_wrap .left .dl .dt {
