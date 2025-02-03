@@ -5,8 +5,7 @@ $(function () {
 
     tl
         .from('.intro .piano', { y: -1000, opacity: 0, delay: 0 })
-        .from('.intro h2', { x: -1000, opacity: 0, delay: 0.8 })
-        .from('.intro p', { x: 1000, opacity: 0 })
+        .from('.intro p', { x: -1000, opacity: 0, delay: 0.4 })
 
 
     $('#portfolio').fullpage({

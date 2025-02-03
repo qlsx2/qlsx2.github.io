@@ -421,7 +421,6 @@
     font-weight: 200;
     text-transform: uppercase;
     letter-spacing: 8px;
-
 }
 
 .intro p {
@@ -653,7 +652,7 @@
     height: 100vh;
     padding: 13% 0 0 6%;
     transform: translateX(60%);
-    transition: 1.1s 1.1s;
+    transition: 0.8s 0.8s;
     opacity: 0;
 }
 
@@ -761,7 +760,7 @@
 
 .pf.on .mockup .mobile {
     opacity: 1;
-    transition: 1.5s 1.8s;
+    transition: 1s 1s;
     transform: translate(0, 0);
     -webkit-box-reflect: below -10px linear-gradient(transparent 80%, #0004);
 }
@@ -1111,7 +1110,7 @@
 
     .pf.on .mockup .mobile {
         opacity: 1;
-        transition: 1.5s 1.8s;
+        transition: 1s 1s;
         transform: translate(0, 0);
         -webkit-box-reflect: below -10px linear-gradient(transparent 80%, #0004);
     }
@@ -1151,7 +1150,7 @@
 
 .pf.on .lnk {
     opacity: 1;
-    transition: 1.5s 1.8s;
+    transition: 1s 1s;
     transform: translate(0, 0);
 }
 
@@ -1424,6 +1423,13 @@ h1>.magic>.magic-text {
 
 
 @media (max-width:768px) {
+    .lua {
+        display: none;
+    }
+
+    .lua .textura {
+   display: none;
+    }
 
     .lnk {
         position: absolute;
@@ -1441,7 +1447,7 @@ h1>.magic>.magic-text {
 
     .pf.on .lnk {
         opacity: 1;
-        transition: 1.5s 1.8s;
+        transition: 1s 1s;
         transform: translate(0, 0);
     }
 
@@ -1506,11 +1512,6 @@ h1>.magic>.magic-text {
 }
 
 
-.profile {
-    background: #000;
-    color: #fff;
-}
-
 
 #footer address {
     position: fixed;
@@ -1573,14 +1574,6 @@ h1>.magic>.magic-text {
     overflow: hidden;
 }
 
-.constelacao {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    animation: rotate 600s infinite linear;
-}
 
 .estrela {
     background-color: white;
@@ -1710,19 +1703,6 @@ h1>.magic>.magic-text {
     opacity: 0.4;
 }
 
-.floresta {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-.floresta img {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
 
 @keyframes escurecer {
     0% {
